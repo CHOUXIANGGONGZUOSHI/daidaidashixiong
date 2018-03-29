@@ -7,10 +7,10 @@ git 分三个区域
 红色工作区，绿色暂存区，本地仓库为白色
 
 git log  显示所有的开发操作  黄色commit显示文件号 复制文件号（前边几个即可）
-输入 git reset --复制的文件号 返回文件号那一版本
+输入 git reset --hard 复制的文件号 返回文件号那一版本
 git log --pretty=online 显示各个版本的文件号
 
 clip < ~/.ssh/id_rsa.pub 显示秘钥到粘贴板
 下载github上的项目  git clone +ssh秘钥 就可以下载
-提交 git push 
+提交  git status->git add-A->git commit -m "" -> git push 
 git pull

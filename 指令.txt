@@ -1,0 +1,16 @@
+git status 查看仓库的更改 红色字体的后缀代表新加的文件类型
+git 分三个区域
+1.工作区--写代码的区域
+2.暂存区  git add -A 放入暂存区，也可以提交部分文件 git add 文件名
+3.本地仓库  git commit -m " " 将暂存区的文件（*）放入本地仓库 ""里边相当于版本注释
+
+红色工作区，绿色暂存区，本地仓库为白色
+
+git log  显示所有的开发操作  黄色commit显示文件号 复制文件号（前边几个即可）
+输入 git reset --复制的文件号 返回文件号那一版本
+git log --pretty=online 显示各个版本的文件号
+
+clip < ~/.ssh/id_rsa.pub 显示秘钥到粘贴板
+下载github上的项目  git clone +ssh秘钥 就可以下载
+提交 git push 
+git pull

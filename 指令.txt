@@ -14,3 +14,5 @@ clip < ~/.ssh/id_rsa.pub 显示秘钥到粘贴板
 下载github上的项目  git clone +ssh秘钥 就可以下载
 提交 git push 
 git pull
+ 
+daidai

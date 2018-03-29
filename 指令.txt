@@ -19,3 +19,16 @@ git pull
 提交 git push 
 git pull
 
+当两个人同时开发一个文件时，需要建立分支
+建立分支：git branch 底下*master  表示所在目录下的分支
+          git checkout -b 名称（win10）
+	  git branch 显示名称
+ win10下 git push --set-upstream origin win10 //建立一个push的位置
+
+git branch -a 红色的代表远程
+git checkout win10(跳转到win10分支)   然后可以跳转到自己的分支可以开发，跳转后win10内的东西没有  
+需要 git merge win10  将win10 的内容合并到win7内，这样win7有内容
+git branch -b win7 建立win7分支
+一边push上去，一边才可以pull下来
+
+当开发时候担心出现bug时，建立一个分支进行测试，如果有删除分支，如果没有，到时候合并分支
